@@ -27,6 +27,7 @@
 }
 
 /* HEADER */
+/* Header top */
 .header-top {
     display: flex;
     justify-content: center;
@@ -65,4 +66,19 @@
 
 .actions {
     text-align: right;
+}
+
+/* Jumbotron */
+.jumbotron {
+    padding: 30px 0;
+    /* debug */
+    background-color: blue;
+}
+
+.content {
+    width: 50%;
+    margin: 0 auto;
+    /* debug */
+    height: 150px;
+    background-color: violet;
 }
